@@ -64,7 +64,6 @@ const browsers = isSauceLabs
   const testSuite = allFilesSync(testFolder);
 
   const failedCount = await runner
-    .startApp("npm run test:server", 4000)
     .src(testSuite)
     .filter(testName => testName.includes(specId))
     .browsers(browsers)
