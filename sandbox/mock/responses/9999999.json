@@ -1,0 +1,17 @@
+{
+  "requestId": "4d0a7cfd-952c-408c-b3b8-438edc38250a",
+  "handle": [{
+    "type": "personalization:decisions",
+    "payload": [{
+      "id": "OM:activity1",
+      "scope": "topBanner",
+      "items": [{
+        "schema": "https://ns.adobe.com/personalization/html-content-item",
+        "data":{
+          "id": "AAAA",
+          "content": "<div>Hola Mundo</div>"
+        }
+      }]
+    }]
+  }]
+}
